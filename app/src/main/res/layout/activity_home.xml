@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C2F33">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="291dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="60dp"
+        android:text="Beach Bod Fitness App"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/weight_button"
+        android:layout_width="186dp"
+        android:layout_height="168dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="39dp"
+        android:background="#00BCD4"
+        android:text="Weight Tracker"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/calorie_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <Button
+        android:id="@+id/exercise_button"
+        android:layout_width="187dp"
+        android:layout_height="181dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="35dp"
+        android:background="#00BCD4"
+        android:text="Exercise Tracker"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/profile_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weight_button" />
+
+    <Button
+        android:id="@+id/calorie_button"
+        android:layout_width="180dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="41dp"
+        android:background="#00BCD4"
+        android:text="Calorie Tracker"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/weight_button"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <Button
+        android:id="@+id/profile_button"
+        android:layout_width="187dp"
+        android:layout_height="173dp"
+        android:layout_marginTop="32dp"
+        android:background="#00BCD4"
+        android:text="Profile"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calorie_button" />
+</androidx.constraintlayout.widget.ConstraintLayout>

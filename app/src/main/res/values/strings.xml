@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Final</string>
+    <string name="male">Male</string>
+    <string name="title_activity_main_page">main_page</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="weight">Weight:</string>
+    <string name="date">Date:</string>
+</resources>
